@@ -1,0 +1,25 @@
+{
+  "name": "js-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "NEXT_TEST_WASM=1 NEXT_TEST_WASM_DIR=./node_modules/@next/swc-wasm-nodejs next dev --webpack",
+    "build": "NEXT_TEST_WASM=1 NEXT_TEST_WASM_DIR=./node_modules/@next/swc-wasm-nodejs next build --webpack",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "7.2.0",
+    "@fortawesome/free-brands-svg-icons": "7.2.0",
+    "@fortawesome/free-solid-svg-icons": "7.2.0",
+    "@fortawesome/react-fontawesome": "3.3.1",
+    "next": "16.2.6",
+    "react": "19.2.6",
+    "react-dom": "19.2.6"
+  },
+  "devDependencies": {
+    "@next/swc-wasm-nodejs": "16.2.6",
+    "eslint": "9.39.4",
+    "eslint-config-next": "16.2.6"
+  }
+}
