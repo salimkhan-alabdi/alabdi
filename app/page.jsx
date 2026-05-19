@@ -2,11 +2,12 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Image from "next/image";
 import { geistMono, montserratAlternates } from "./fonts";
 import dashboardScreen from "./dashboard.png";
+import shopScreen from "./shop.png";
 import storeScreen from "./store.png";
+import templ from "./templa.png";
 import {
   faCss3Alt,
   faFigma,
-  faGitAlt,
   faGithub,
   faHtml5,
   faInstagram,
@@ -100,7 +101,7 @@ const projects = [
     number: "01",
     title: "Creator Platform",
     type: "Link-in-bio Store",
-    text: 'Store is an all-in-one "link-in-bio" store specifically designed for content creators to monetize their audience directly from social media.',
+    text: 'Store is an all-in-one store specifically designed for content creators to monetize their audience directly from social media.',
     link: "https://stanstore-three.vercel.app/dashboard",
     image: storeScreen,
     accent: "cyan",
@@ -112,6 +113,24 @@ const projects = [
     text: "Responsive dashboard interface with profile management, organized navigation and clean account-focused UI components.",
     link: "https://dashboard-one-ashy-16.vercel.app",
     image: dashboardScreen,
+    accent: "mint",
+  },
+  {
+    number: "03",
+    title: "Sneakers Shop",
+    type: "Sell Store",
+    text: "A responsive e-commerce platform for sneakers featuring product filtering, detailed product pages, and a clean user interface.",
+    link: "https://sneakers-shop-frontend.vercel.app/ru",
+    image: shopScreen,
+    accent: "mint",
+  },
+  {
+    number: "04",
+    title: "Creative one template",
+    type: "Landing page",
+    text: "A creative landing page template with modern typography, smooth animations, and a fully responsive layout.",
+    link: "https://salimkhan-alabdi.github.io/sarajevo/",
+    image: templ,
     accent: "mint",
   },
 ];
